@@ -188,7 +188,7 @@ $( document ).ready(function() {
         $.ajax({
             type: 'POST',
             //url: '../php/sendmail.php',
-            url: 'https://cabomaxico.com/php/luis.php',
+            //url: 'https://cabomaxico.com/php/luis.php',
             dataType: "json",
             data: formData,
             success: function(response) {
