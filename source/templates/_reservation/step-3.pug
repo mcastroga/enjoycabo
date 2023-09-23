@@ -1,0 +1,108 @@
+#step-3.row
+  .col-sm-12.area
+    .selector
+      .step.previous 1
+      .step.previous 2
+      .step.selected 3
+      .step 4
+    .title
+      h3 Personal Info
+  form.col-sm-12
+    .info.info-container.margin-bottom-2r
+      .row
+        .col-sm-6.col-12
+          label Full Name
+          input#form-name(type='text', name='name')
+        .col-sm-6.col-12
+          label Email
+          input#form-email(type='text', name='email')
+      .row
+        .col-sm-6.col-12
+          label Phone
+          input#form-phone(type='number', name='phone')
+              
+        #capacity-suburban.col-sm-6.col-12
+          label Pax
+          select#form-passengers-suburban
+            option(name='passengers', value='1') 1 Passenger
+            option(name='passengers', value='2') 2 Passengers
+            option(name='passengers', value='3') 3 Passengers
+            option(name='passengers', value='4') 4 Passengers
+            option(name='passengers', value='5') 5 Passengers
+
+        #capacity-hiace.col-sm-6.col-12
+          label Pax
+          select#form-passengers-hiace
+            option(name='passengers', value='1') 1 Passenger
+            option(name='passengers', value='2') 2 Passengers
+            option(name='passengers', value='3') 3 Passengers
+            option(name='passengers', value='4') 4 Passengers
+            option(name='passengers', value='5') 5 Passengers
+            option(name='passengers', value='6') 6 Passengers
+            option(name='passengers', value='7') 7 Passengers
+            option(name='passengers', value='8') 8 Passengers
+            option(name='passengers', value='9') 9 Passengers
+            option(name='passengers', value='10') 10 Passengers
+            
+        #capacity-sprinter.col-sm-6.col-12
+          label Pax
+          select#form-passengers-sprinter
+            option(name='passengers', value='1') 1 Passenger
+            option(name='passengers', value='2') 2 Passengers
+            option(name='passengers', value='3') 3 Passengers
+            option(name='passengers', value='4') 4 Passengers
+            option(name='passengers', value='5') 5 Passengers
+            option(name='passengers', value='6') 6 Passengers
+            option(name='passengers', value='7') 7 Passengers
+            option(name='passengers', value='8') 8 Passengers
+            option(name='passengers', value='9') 9 Passengers
+            option(name='passengers', value='10') 10 Passengers
+            option(name='passengers', value='11') 11 Passengers
+            option(name='passengers', value='12') 12 Passengers
+            option(name='passengers', value='13') 13 Passengers
+            option(name='passengers', value='14') 14 Passengers
+            option(name='passengers', value='15') 15 Passengers
+            option(name='passengers', value='16') 16 Passengers
+
+      #arrival.row-group
+        .row
+          .col-md-3.col-sm-6.col-12
+            label Arrival Date
+            input#form-arrival-date(type='date', name='arrivaldate')
+          .col-md-3.col-sm-6.col-12
+            label Arrival Time
+            input#form-arrival-time(type='time', name='arrivaltime')
+          .col-md-3.col-sm-6.col-12
+            label Airline
+            input#form-arrival-airline
+          .col-md-3.col-sm-6.col-12
+            label Flight #
+            input#form-arrival-flight(type='text', name='arrivalflight', placeholder="Flight")
+
+      #departure.row-group
+        .row
+          .col-md-3.col-sm-6.col-12
+            label Departure Date
+            input#form-departure-date(type='date', name='departuredate')
+          .col-md-3.col-sm-6.col-12
+            label Departure Time
+            input#form-departure-time(type='time', name='departuretime')
+          .col-md-3.col-sm-6.col-12
+            label Airline
+            input#form-departure-airline
+          .col-md-3.col-sm-6.col-12
+            label Flight #
+            input#form-departure-flight(type='text', name='departureflight', placeholder="Flight")
+
+      .row
+        .col-12
+          label Comments
+          input#form-comment(name='comments')
+      .row
+        .col-12
+          label Promo Code
+          input#form-promo(type='text', name='promo')
+            
+  .col-sm-12
+    .footer-action
+      input#send-mail.submit-button(type="button", name="SEND" value="SEND")

@@ -1,0 +1,649 @@
+{
+  "hotel": [
+    {
+      "name": "Alegranza",
+      "zone": 1
+    },
+    {
+      "name": "Barcelo Grand Faro",
+      "zone": 1
+    },
+    {
+      "name": "Cabo Azul",
+      "zone": 1
+    },
+    {
+      "name": "Casa Costa Azul",
+      "zone": 1
+    },
+    {
+      "name": "Casa Natalia",
+      "zone": 1
+    },
+    {
+      "name": "Club Campestre San Jose",
+      "zone": 1
+    },
+    {
+      "name": "Drift",
+      "zone": 1
+    },
+    {
+      "name": "Encanto Inn",
+      "zone": 1
+    },
+    {
+      "name": "Grand Mayan",
+      "zone": 1
+    },
+    {
+      "name": "Holiday Inn Resort",
+      "zone": 1
+    },
+    {
+      "name": "Hotel Colli",
+      "zone": 1
+    },
+    {
+      "name": "Hyatt Place",
+      "zone": 1
+    },
+    {
+      "name": "Hyatt Ziva",
+      "zone": 1
+    },
+    {
+      "name": "Las Mañanitas",
+      "zone": 1
+    },
+    {
+      "name": "Marisol Boutique",
+      "zone": 1
+    },
+    {
+      "name": "Mykonos",
+      "zone": 1
+    },
+    {
+      "name": "Park Royal",
+      "zone": 1
+    },
+    {
+      "name": "Posada Real",
+      "zone": 1
+    },
+    {
+      "name": "Posada Señor Mañana",
+      "zone": 1
+    },
+    {
+      "name": "Posada Terranova",
+      "zone": 1
+    },
+    {
+      "name": "Posada Yuca Inn",
+      "zone": 1
+    },
+    {
+      "name": "Reflect Krystal Grand Los Cabos",
+      "zone": 1
+    },
+    {
+      "name": "Royal Decameron",
+      "zone": 1
+    },
+    {
+      "name": "Royal Solaris",
+      "zone": 1
+    },
+    {
+      "name": "Sampaguita",
+      "zone": 1
+    },
+    {
+      "name": "Santa Maria Hotel and Suites",
+      "zone": 1
+    },
+    {
+      "name": "Soleado Resort",
+      "zone": 1
+    },
+    {
+      "name": "Suites Las Palmas",
+      "zone": 1
+    },
+    {
+      "name": "Tropicana Inn",
+      "zone": 1
+    },
+    {
+      "name": "Viceroy",
+      "zone": 1
+    },
+    {
+      "name": "Viva Condos",
+      "zone": 1
+    },
+    {
+      "name": "Worldmark Coral Baja",
+      "zone": 1
+    },
+    {
+      "name": "Baja Point",
+      "zone": 2
+    },
+    {
+      "name": "Cabo Surf",
+      "zone": 2
+    },
+    {
+      "name": "Casa del Mar",
+      "zone": 2
+    },
+    {
+      "name": "Chileno Bay",
+      "zone": 2
+    },
+    {
+      "name": "Club Regina",
+      "zone": 2
+    },
+    {
+      "name": "Dreams",
+      "zone": 2
+    },
+    {
+      "name": "El Dorado Residences",
+      "zone": 2
+    },
+    {
+      "name": "El Ganzo",
+      "zone": 2
+    },
+    {
+      "name": "Encanto de la Laguna",
+      "zone": 2
+    },
+    {
+      "name": "Espiritu del Mar",
+      "zone": 2
+    },
+    {
+      "name": "Garza Blanca",
+      "zone": 2
+    },
+    {
+      "name": "Grand Velas",
+      "zone": 2
+    },
+    {
+      "name": "Hampton Inn Suites",
+      "zone": 2
+    },
+    {
+      "name": "Hilton",
+      "zone": 2
+    },
+    {
+      "name": "JW Marriott",
+      "zone": 2
+    },
+    {
+      "name": "Las Ventanas al Paraiso",
+      "zone": 2
+    },
+    {
+      "name": "Le Blanc",
+      "zone": 2
+    },
+    {
+      "name": "Maravilla",
+      "zone": 2
+    },
+    {
+      "name": "Marquis",
+      "zone": 2
+    },
+    {
+      "name": "One and Only Palmilla",
+      "zone": 2
+    },
+    {
+      "name": "Paradisus",
+      "zone": 2
+    },
+    {
+      "name": "Querencia",
+      "zone": 2
+    },
+    {
+      "name": "Ritz-Carlton",
+      "zone": 2
+    },
+    {
+      "name": "Secrets Puerto Los Cabos",
+      "zone": 2
+    },
+    {
+      "name": "Sheraton Hacienda del Mar",
+      "zone": 2
+    },
+    {
+      "name": "Solaz",
+      "zone": 2
+    },
+    {
+      "name": "Vievage",
+      "zone": 2
+    },
+    {
+      "name": "Villa Valencia",
+      "zone": 2
+    },
+    {
+      "name": "Villas del Mar",
+      "zone": 2
+    },
+    {
+      "name": "Westin Regina",
+      "zone": 2
+    },
+    {
+      "name": "Bahia",
+      "zone": 3
+    },
+    {
+      "name": "Breathless Cabo San Lucas",
+      "zone": 3
+    },
+    {
+      "name": "Cabo Cush",
+      "zone": 3
+    },
+
+    {
+      "name": "Cabo Viejo",
+      "zone": 3
+    },
+    {
+      "name": "Cabo Villas",
+      "zone": 3
+    },
+    {
+      "name": "Casa Dorada",
+      "zone": 3
+    },
+    {
+      "name": "City Express Plus",
+      "zone": 3
+    },
+    {
+      "name": "City Express Suites",
+      "zone": 3
+    },
+    {
+      "name": "Club Cascadas de Baja",
+      "zone": 3
+    },
+    {
+      "name": "Comfort Inn",
+      "zone": 3
+    },
+    {
+      "name": "El Ameyal",
+      "zone": 3
+    },
+    {
+      "name": "Esperanza An Auberge",
+      "zone": 3
+    },
+    {
+      "name": "Estancia Real",
+      "zone": 3
+    },
+    {
+      "name": "Fairfield Inn Marriott",
+      "zone": 3
+    },
+    {
+      "name": "Four Seasons Cabo del Sol",
+      "zone": 3
+    },
+    {
+      "name": "Grand Fiesta Americana",
+      "zone": 3
+    },
+    {
+      "name": "Grand Solmar",
+      "zone": 3
+    },
+    {
+      "name": "Hacienda Beach Club",
+      "zone": 3
+    },
+    {
+      "name": "Hacienda Encantada",
+      "zone": 3
+    },
+    {
+      "name": "Holiday Inn Express",
+      "zone": 3
+    },
+    {
+      "name": "Los Cabos Golf Resort",
+      "zone": 3
+    },
+    {
+      "name": "Los Patios",
+      "zone": 3
+    },
+    {
+      "name": "Mar del Cabo",
+      "zone": 3
+    },
+    {
+      "name": "Marina Fiesta",
+      "zone": 3
+    },
+    {
+      "name": "Marina Sol",
+      "zone": 3
+    },
+    {
+      "name": "ME Cabo by Melia",
+      "zone": 3
+    },
+    {
+      "name": "Medano Hotel and Suites",
+      "zone": 3
+    },
+    {
+      "name": "Misiones del Cabo",
+      "zone": 3
+    },
+    {
+      "name": "Montage",
+      "zone": 3
+    },
+    {
+      "name": "Playa Grande",
+      "zone": 3
+    },
+    {
+      "name": "Pueblo Bonito Los Cabos",
+      "zone": 3
+    },
+    {
+      "name": "Pueblo Bonito Rose",
+      "zone": 3
+    },
+    {
+      "name": "Quintas del Sol",
+      "zone": 3
+    },
+    {
+      "name": "Riu Palace",
+      "zone": 3
+    },
+    {
+      "name": "Riu Santa Fe",
+      "zone": 3
+    },
+    {
+      "name": "Riu Baja California",
+      "zone": 3
+    },
+    {
+      "name": "Sandos Finisterra",
+      "zone": 3
+    },
+    {
+      "name": "Seven Crown",
+      "zone": 3
+    },
+    {
+      "name": "Sirena del Mar",
+      "zone": 2
+    },
+    {
+      "name": "Sunrock Condo",
+      "zone": 3
+    },
+    {
+      "name": "The Cape Thompson",
+      "zone": 3
+    },
+    {
+      "name": "The Residences at La Vista",
+      "zone": 3
+    },
+    {
+      "name": "Villa Del Arco",
+      "zone": 3
+    },
+    {
+      "name": "Villa Del Palmar",
+      "zone": 3
+    },
+    {
+      "name": "Villa La Estancia",
+      "zone": 3
+    },
+    {
+      "name": "Waldorf Astoria at Pedregal",
+      "zone": 3
+    },
+    {
+      "name": "Wyndham Tesoro",
+      "zone": 3
+    },
+    {
+      "name": "Copala",
+      "zone": 4
+    },
+    {
+      "name": "Diamante Cabo San Lucas",
+      "zone": 5
+    },
+    {
+      "name": "Grand Solmar at Rancho San Lucas",
+      "zone": 5
+    },
+    {
+      "name": "Hard Rock Hotel",
+      "zone": 5
+    },
+    {
+      "name": "Montecristo Estates",
+      "zone": 4
+    },
+    {
+      "name": "Nobu",
+      "zone": 5
+    },
+    {
+      "name": "Nova Hispania",
+      "zone": 4
+    },
+    {
+      "name": "Pedregal Cabo San Lucas",
+      "zone": 4
+    },
+    {
+      "name": "Pueblo Bonito Pacifica",
+      "zone": 4
+    },
+    {
+      "name": "Pueblo Bonito Sunset Beach",
+      "zone": 4
+    },
+    {
+      "name": "Quivira",
+      "zone": 4
+    },
+    {
+      "name": "Cerritos",
+      "zone": 6
+    },
+    {
+      "name": "Todos Santos",
+      "zone": 6
+    },
+    {
+      "name": "Pescadero",
+      "zone": 6
+    },
+    {
+      "name": "La Paz",
+      "zone": 7
+    },
+    {
+      "name": "Four Seasons Costa Palmas",
+      "zone": 8
+    },
+    {
+      "name": "Los Barriles",
+      "zone": 8
+    }
+  ],
+  "units": [
+    {
+      "name": "Chevrolet Suburban",
+      "capacity": 5,
+      "prices": [
+        {
+          "zone": 1,
+          "oneway": 70.00,
+          "roundtrip": 140.00
+        },
+        {
+          "zone": 2,
+          "oneway": 80.00,
+          "roundtrip": 160.00
+        },
+        {
+          "zone": 3,
+          "oneway": 85.00,
+          "roundtrip": 170.00
+        },
+        {
+          "zone": 4,
+          "oneway": 90.00,
+          "roundtrip": 180.00
+        },
+        {
+          "zone": 5,
+          "oneway": 95.00,
+          "roundtrip": 190.00
+        },
+        {
+          "zone": 6,
+          "oneway": 200.00,
+          "roundtrip": 400.00
+        },
+        {
+          "zone": 7,
+          "oneway": 250.00,
+          "roundtrip": 500.00
+        },
+        {
+          "zone": 8,
+          "oneway": 200.00,
+          "roundtrip": 400.00
+        }
+      ]
+    },
+    {
+      "name": "Toyota Hiace",
+      "capacity": 10,
+      "prices": [
+        {
+          "zone": 1,
+          "oneway": 80.00,
+          "roundtrip": 160.00
+        },
+        {
+          "zone": 2,
+          "oneway": 85.00,
+          "roundtrip": 170.00
+        },
+        {
+          "zone": 3,
+          "oneway": 100.00,
+          "roundtrip": 200.00
+        },
+        {
+          "zone": 4,
+          "oneway": 110.00,
+          "roundtrip": 220.00
+        },
+        {
+          "zone": 5,
+          "oneway": 115.00,
+          "roundtrip": 230.00
+        },
+        {
+          "zone": 6,
+          "oneway": 210.00,
+          "roundtrip": 420.00
+        },
+        {
+          "zone": 7,
+          "oneway": 260.00,
+          "roundtrip": 520.00
+        },
+        {
+          "zone": 8,
+          "oneway": 210.00,
+          "roundtrip": 420.00
+        }
+      ]
+    },
+    {
+      "name": "Mercedes-Benz Sprinter",
+      "capacity": 19,
+      "prices": [
+        {
+          "zone": 1,
+          "oneway": 90.00,
+          "roundtrip": 190.00
+        },
+        {
+          "zone": 2,
+          "oneway": 100.00,
+          "roundtrip": 200.00
+        },
+        {
+          "zone": 3,
+          "oneway": 110.00,
+          "roundtrip": 220.00
+        },
+        {
+          "zone": 4,
+          "oneway": 120.00,
+          "roundtrip": 240.00
+        },
+        {
+          "zone": 5,
+          "oneway": 130.00,
+          "roundtrip": 260.00
+        },
+        {
+          "zone": 6,
+          "oneway": 250.00,
+          "roundtrip": 500.00
+        },
+        {
+          "zone": 7,
+          "oneway": 310.00,
+          "roundtrip": 620.00
+        },
+        {
+          "zone": 8,
+          "oneway": 250.00,
+          "roundtrip": 500.00
+        }
+      ]
+    }
+  ]
+}

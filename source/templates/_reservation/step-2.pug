@@ -1,0 +1,42 @@
+#step-2.row
+  .col-sm-12.area
+    .selector
+      .step.previous 1
+      .step.selected 2
+      .step 3
+      .step 4
+    .title
+      h3 Select your destination</h3>
+  form.col-sm-12
+    .info.info-container.margin-bottom-2r
+      .col-12
+        label.zindex9 Hotel
+        input#form-hotel(name="Hotel", placeholder="Select your hotel")
+      .col-12
+        label Service
+        select#form-service(name="Service")
+          option(date="One Way" value="One Way") One Way
+          option(data="Round Trip" value="Round Trip") Round Trip
+      #only-oneway.col-12
+        label Departure
+        select#form-destination(name="Destination")
+          option(data="Airport - Hotel" value="Airport - Hotel") From Airport to Hotel
+          option(data="Hotel - Airport" value="Hotel - Airport") From Hotel to Airport
+      #capacity-shuttle.col-12
+        label Pax
+        select#form-passengers-shuttle
+          option(name='passengers', value='1') 1 Passenger
+          option(name='passengers', value='2') 2 Passengers
+          option(name='passengers', value='3') 3 Passengers
+          option(name='passengers', value='4') 4 Passengers
+          option(name='passengers', value='5') 5 Passengers
+          option(name='passengers', value='6') 6 Passengers
+          option(name='passengers', value='7') 7 Passengers
+          option(name='passengers', value='8') 8 Passengers
+          option(name='passengers', value='9') 9 Passengers
+          option(name='passengers', value='10') 10 Passengers
+          option(name='passengers', value='11') 11 Passengers
+          option(name='passengers', value='12') 12 Passengers    
+  .col-sm-12
+    .footer-action
+      input#send-prebook.submit-button(type="button" name="SEND" value="SEND" disabled="disabled")

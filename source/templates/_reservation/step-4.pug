@@ -1,0 +1,78 @@
+#step-4.row
+  .col-sm-12.area
+    .selector
+      .step.previous 1
+      .step.previous 2
+      .step.previous 3
+      .step.selected 4
+    .title
+      h3 Payment Info
+  .col-sm-12
+    .info.info-container.margin-bottom-2r
+      .col-12
+        h4.text-center Thanks for choosing us!
+        p.text-center You can pay in cash when you arrive onboard our unit or pay now in PayPal.
+        br
+      .row    
+        .col-sm-6.text-center
+          p
+            strong PAY IN CASH
+          .row
+            .col-sm-12.d-flex.align-items-center
+              img.margin-right-10(src='/images/icons/extra.svg', height='16px')
+              p Extras
+          #grocery-stop-cash.row    
+            .col-sm-6.d-flex.align-items-center
+              img.margin-right-10(src='/images/icons/grocery.svg', height='16px')
+              p 
+                  i Grocery stop
+            .col-sm-6.text-left
+              p#grocery-cash    
+          .row
+            .col.sm-6.text-left
+              p
+                strong Total
+            .col-sm-6.text-left
+              p
+                strong#price-cash        
+        .col-sm-6.text-center
+          p
+            strong PAY IN PAYPAL
+          .row
+            .col-sm-12.d-flex.align-items-center
+              img.margin-right-10(src='/images/icons/extra.svg', height='16px')
+              p Extras
+          #grocery-stop-paypal.row    
+            .col-sm-6.d-flex.align-items-center
+              img.margin-right-10(src='/images/icons/grocery.svg', height='16px')
+              p 
+                  i Grocery stop
+            .col-sm-6.text-left
+              p#grocery-paypal
+          .row
+            .col-sm-6.d-flex.align-items-center
+              img.margin-right-10(src='/images/icons/tax.svg', height='16px')
+              p Taxes           
+            .col-6
+              p#selectedTax
+          .row      
+            .col-sm-6.text-left
+              p 
+                strong Total
+            .col-sm-6
+              p
+                strong#priceTotal        
+          .row          
+            .col-12
+              form(action='https://www.paypal.com/mx/cgi-bin/webscr', method='post', name="paypalform", id="paypalform")
+                input(type='hidden', name='cmd', value='_xclick')
+                input(type='hidden', name='business', value='luiscabodriver23@gmail.com')
+                input(type='hidden', name='item_name', value='Tours')
+                input(type='hidden', name='currency_code', value='USD')
+                input(type='hidden', name='rm', value='2')
+                input(type="hidden", name="return", value="http://luiscabodriver.com")
+                input(type='hidden', name='notify_url', value='http://luiscabodriver.com')
+                input(type='hidden', name='item_number', id='item_number', value='')
+                input#price-paypal(type='hidden', name='amount', value='')
+                input.margin-top-20(type='image', src='https://www.paypalobjects.com/es_XC/i/btn/btn_paynow_LG.gif', name='submit', alt="Make payments with PayPal - it's fast, free and secure!")
+                img(alt='', border='0', src='https://www.paypalobjects.com/es_XC/i/scr/pixel.gif', width='1', height='1')

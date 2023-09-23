@@ -1,0 +1,529 @@
+section#zones
+    .container
+        .row
+            .col-12
+                h3.fs-1.text-center Los Cabos Hotel Zones
+        .row
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white San Jose <br> del Cabo
+                        p.card-text.text-white Zone 1
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $140 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $70 USD 
+                    .card-footer
+                        button.btn.zone.w-100(type='button', data-bs-toggle='modal', data-bs-target='#zone-1') Hotel List
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white Tourist <br> Corridor
+                        p.card-text.text-white Zone 2
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $160 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $80 USD 
+                    .card-footer
+                        button.btn.zone.w-100(type='button', data-bs-toggle='modal', data-bs-target='#zone-2') Hotel List
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white Cabo San <br> Lucas
+                        p.card-text.text-white Zone 3
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $170 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $85 USD 
+                    .card-footer
+                        button.btn.zone.w-100(type='button', data-bs-toggle='modal', data-bs-target='#zone-3') Hotel List
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white CSL <br> Pacific
+                        p.card-text.text-white Zone 4
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $180 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $90 USD 
+                    .card-footer
+                        button.btn.zone.w-100(type='button', data-bs-toggle='modal', data-bs-target='#zone-4') Hotel List
+                        
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white Diamante Area
+                        p.card-text.text-white Zone 5
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $190 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $95 USD 
+                    .card-footer
+                        button.btn.zone.w-100(type='button', data-bs-toggle='modal', data-bs-target='#zone-5') Hotel List
+        .row
+            .col-12
+                h3.fs-1.text-center Outside Cabo                      
+                                
+        .row                      
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white Todos Santos
+                        p.card-text.text-white
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $400 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $200 USD 
+                                                    
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white La Paz
+                        p.card-text.text-white 
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $500 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $250 USD 
+                                                                          
+            .col
+                .card.bg-light(data-aos='fade-up', data-aos-duration='1000')
+                    .zone.card-header.text-center
+                        h3.card-title.text-white Los Barriles
+                        p.card-text.text-white
+                    .card-body.bg-transparent.p-0
+                        ul.list-group.list-group-flush.text-center
+                            li.list-group-item Round trip
+                                br 
+                                strong $400 USD
+                            li.list-group-item One way 
+                                br 
+                                strong $200 USD               
+        
+        #zone-1.modal.fade(role='dialog' tabindex='-1' aria-labelledby='modalLabelZone1' aria-hidden='true')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header
+                        h4.modal-title#modalLabelZone1 Hotel List
+                        button.btn-close(type='button', data-bs-dismiss='modal' aria-label='Close')
+                    .modal-body.row.justify-content-center
+                        .hotel-card
+                            img(src='../images/icons/hotels/alegranza.jpg', width='100%', alt='Alegranza')
+                            p.text-center Alegranza
+                        .hotel-card
+                            img(src='../images/icons/hotels/barcelo-grand-faro.jpg', width='100%', alt='Barcelo Grand Faro')
+                            p.text-center Barcelo Grand Faro
+                        .hotel-card
+                            img(src='../images/icons/hotels/cabo-azul.jpg', width='100%', alt='Cabo Azul')
+                            p.text-center Cabo Azul
+                        .hotel-card
+                            img(src='../images/icons/hotels/casa-costa-azul.jpg', width='100%', alt='Casa Costa Azul')
+                            p.text-center Casa Costa Azul
+                        .hotel-card
+                            img(src='../images/icons/hotels/casa-natalia.jpg', width='100%', alt='Casa Natalia')
+                            p.text-center Casa Natalia
+                        .hotel-card
+                            img(src='../images/icons/hotels/club-campestre-san-jose.jpg', width='100%', alt='Club Campestre San Jose')
+                            p.text-center Club Campestre San Jose
+                        .hotel-card
+                            img(src='../images/icons/hotels/drift.jpg', width='100%', alt='Drift')
+                            p.text-center Drift
+                        .hotel-card
+                            img(src='../images/icons/hotels/encanto-inn.jpg', width='100%', alt='Encanto Inn')
+                            p.text-center Encanto Inn
+                        .hotel-card
+                            img(src='../images/icons/hotels/grand-mayan.jpg', width='100%', alt='Grand Mayan')
+                            p.text-center Grand Mayan
+                        .hotel-card
+                            img(src='../images/icons/hotels/holiday-inn-resort.jpg', width='100%', alt='Holiday Inn Resort')
+                            p.text-center Holiday Inn Resort
+                        .hotel-card
+                            img(src='../images/icons/hotels/hotel-colli.jpg', width='100%', alt='Hotel Colli')
+                            p.text-center Hotel Colli
+                        .hotel-card
+                            img(src='../images/icons/hotels/hyatt-place.jpg', width='100%', alt='Hyatt Place')
+                            p.text-center Hyatt Place
+                        .hotel-card
+                            img(src='../images/icons/hotels/hyatt-ziva.jpg', width='100%', alt='Hyatt Ziva')
+                            p.text-center Hyatt Ziva
+                        .hotel-card
+                            img(src='../images/icons/hotels/las-mananitas.jpg', width='100%', alt='Las Mañanitas')
+                            p.text-center Las Mañanitas
+                        .hotel-card
+                            img(src='../images/icons/hotels/marisol-boutique.jpg', width='100%', alt='Marisol Boutique Hotel')
+                            p.text-center Marisol Boutique Hotel
+                        .hotel-card
+                            img(src='../images/icons/hotels/mykonos.jpg', width='100%', alt='Mykonos')
+                            p.text-center Mykonos
+                        .hotel-card
+                            img(src='../images/icons/hotels/park-royal.jpg', width='100%', alt='Park Royal')
+                            p.text-center Park Royal
+                        .hotel-card
+                            img(src='../images/icons/hotels/posada-real.jpg', width='100%', alt='Posada Real')
+                            p.text-center Posada Real
+                        .hotel-card
+                            img(src='../images/icons/hotels/posada-senor-manana.jpg', width='100%', alt='Posada Señor Mañana')
+                            p.text-center Posada Señor Mañana
+                        .hotel-card
+                            img(src='../images/icons/hotels/posada-terranova.jpg', width='100%', alt='Posada Terranova')
+                            p.text-center Posada Terranova
+                        .hotel-card
+                            img(src='../images/icons/hotels/posada-yuca-inn.jpg', width='100%', alt='Posada Yuca Inn')
+                            p.text-center Posada Yuca Inn
+                        .hotel-card
+                            img(src='../images/icons/hotels/reflect-krystal-grand.jpg', width='100%', alt='Krystal Grand')
+                            p.text-center Reflect Krystal Grand
+                        .hotel-card
+                            img(src='../images/icons/hotels/royal-decameron.jpg', width='100%', alt='Royal Decameron')
+                            p.text-center Royal Decameron
+                        .hotel-card
+                            img(src='../images/icons/hotels/royal-solaris.jpg', width='100%', alt='Royal Solaris')
+                            p.text-center Royal Solaris
+                        .hotel-card
+                            img(src='../images/icons/hotels/sampaguita.jpg', width='100%', alt='Sampaguita')
+                            p.text-center Sampaguita
+                        .hotel-card
+                            img(src='../images/icons/hotels/santa-maria-hotel-and-suites.jpg', width='100%', alt='Santa Maria Hotel And Suites')
+                            p.text-center Santa Maria Hotel And Suites
+                        .hotel-card
+                            img(src='../images/icons/hotels/soleado.jpg', width='100%', alt='Soleado Resort')
+                            p.text-center Soleado Resort
+                        .hotel-card
+                            img(src='../images/icons/hotels/suites-las-palmas.jpg', width='100%', alt='Suite Las Palmas')
+                            p.text-center Suites Las Palmas
+                        .hotel-card
+                            img(src='../images/icons/hotels/tropicana-inn.jpg', width='100%', alt='Tropicana Inn')
+                            p.text-center Tropicana Inn
+                        .hotel-card
+                            img(src='../images/icons/hotels/viceroy.jpg', width='100%', alt='Viceroy')
+                            p.text-center Viceroy
+                        .hotel-card
+                            img(src='../images/icons/hotels/viva-condos.jpg', width='100%', alt='Viva Condos')
+                            p.text-center Viva Condos
+                        .hotel-card
+                            img(src='../images/icons/hotels/worldmark-by-wyndham.jpg', width='100%', alt='Worldmark By Wyndham')
+                            p.text-center Coral Baja
+                    .modal-footer
+                        button.btn.zone-1.text-white(type='button', data-bs-dismiss='modal') Close
+               
+        #zone-2.modal.fade(role='dialog' tabindex='-1' aria-labelledby='modalLabelZones' aria-hidden='true')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header
+                        h4.modal-title Hotel List
+                        button.btn-close(type='button', data-bs-dismiss='modal' aria-label='Close')                         
+                    .modal-body.row.justify-content-center
+                        .hotel-card
+                            img(src='../images/icons/hotels/baja-point.jpg', width='100%', alt='Baja Point')
+                            p.text-center Baja Point
+                        .hotel-card
+                            img(src='../images/icons/hotels/cabo-surf.jpg', width='100%', alt='Cabo Surf')
+                            p.text-center Cabo Surf
+                        .hotel-card
+                            img(src='../images/icons/hotels/casa-del-mar.jpg', width='100%', alt='Casa del Mar')
+                            p.text-center Casa del Mar
+                        .hotel-card
+                            img(src='../images/icons/hotels/chileno-bay.jpg', width='100%', alt='Chileno Bay')
+                            p.text-center Chileno Bay
+                        .hotel-card
+                            img(src='../images/icons/hotels/club-regina.jpg', width='100%', alt='Club Regina')
+                            p.text-center Club Regina
+                        .hotel-card
+                            img(src='../images/icons/hotels/dreams.jpg', width='100%', alt='Dreams')
+                            p.text-center Dreams
+                        .hotel-card
+                            img(src='../images/icons/hotels/el-dorado-residences.jpg', width='100%', alt='El Dorado Residences')
+                            p.text-center El Dorado Residences
+                        .hotel-card
+                            img(src='../images/icons/hotels/el-ganzo.jpg', width='100%', alt='El Ganzo')
+                            p.text-center El Ganzo
+                        .hotel-card
+                            img(src='../images/icons/hotels/encanto-de-la-laguna.jpg', width='100%', alt='Encanto de la Laguna')
+                            p.text-center Encanto de la Laguna
+                        .hotel-card
+                            img(src='../images/icons/hotels/espiritu-del-mar.jpg', width='100%', alt='Espiritu del Mar')
+                            p.text-center Espiritu del Mar
+                        .hotel-card
+                            img(src='../images/icons/hotels/garza-blanca.jpg', width='100%', alt='Sheraton Hacienda del Mar')
+                            p.text-center Garza Blanca
+                        .hotel-card
+                            img(src='../images/icons/hotels/grand-velas.jpg', width='100%', alt='Grand Velas')
+                            p.text-center Grand Velas
+                        .hotel-card
+                            img(src='../images/icons/hotels/hampton-inn-suites.jpg', width='100%', alt='Hampton Inn Suites')
+                            p.text-center Hampton Inn Suites
+                        .hotel-card
+                            img(src='../images/icons/hotels/hilton.jpg', width='100%', alt='Hilton')
+                            p.text-center Hilton
+                        .hotel-card
+                            img(src='../images/icons/hotels/jw-marriott.jpg', width='100%', alt='JW Marriott')
+                            p.text-center JW Marriott
+                        .hotel-card
+                            img(src='../images/icons/hotels/las-ventanas-al-paraiso.jpg', width='100%', alt='Las Ventanas Al Paraiso')
+                            p.text-center Las Ventanas Al Paraiso
+                        .hotel-card
+                            img(src='../images/icons/hotels/le-blanc.jpg', width='100%', alt='Le Blanc')
+                            p.text-center Le Blanc
+                        .hotel-card
+                            img(src='../images/icons/hotels/maravilla.jpg', width='100%', alt='Maravilla')
+                            p.text-center Maravilla
+                        .hotel-card
+                            img(src='../images/icons/hotels/marquis.jpg', width='100%', alt='Marquis')
+                            p.text-center Marquis
+                        .hotel-card
+                            img(src='../images/icons/hotels/one-and-only-palmilla.jpg', width='100%', alt='One and Only Palmilla')
+                            p.text-center One and Only Palmilla
+                        .hotel-card
+                            img(src='../images/icons/hotels/paradisus.jpg', width='100%', alt='Paradisus')
+                            p.text-center Paradisus
+                        .hotel-card
+                            img(src='../images/icons/hotels/querencia.jpg', width='100%', alt='Querencia')
+                            p.text-center Querencia
+                        .hotel-card
+                            img(src='../images/icons/hotels/ritz-carlton.jpg', width='100%', alt='Ritz-Carlton')
+                            p.text-center Ritz-Carlton
+                        .hotel-card
+                            img(src='../images/icons/hotels/secrets-puerto-los-cabos.jpg', width='100%', alt='Secrets Puerto Los Cabos')
+                            p.text-center Secrets Puerto Los Cabos
+                        .hotel-card
+                            img(src='../images/icons/hotels/sheraton-hacienda-del-mar.jpg', width='100%', alt='Sheraton Hacienda del Mar')
+                            p.text-center Sheraton Hacienda del Mar
+                        .hotel-card
+                            img(src='../images/icons/hotels/solaz.jpg', width='100%', alt='Solaz')
+                            p.text-center Solaz
+                        .hotel-card
+                            img(src='../images/icons/hotels/vievage.jpg', width='100%', alt='VieVage')
+                            p.text-center VieVage
+                        .hotel-card
+                            img(src='../images/icons/hotels/villas-del-mar.jpg', width='100%', alt='Villas del Mar')
+                            p.text-center Villas del Mar
+                        .hotel-card
+                            img(src='../images/icons/hotels/westin-regina.jpg', width='100%', alt='Westin Regina')
+                            p.text-center Westin Regina
+                    .modal-footer
+                        button.btn.zone-2.text-white(type='button', data-bs-dismiss='modal') Close
+                
+        #zone-3.modal.fade(role='dialog' tabindex='-1' aria-labelledby='modalLabelZones' aria-hidden='true')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header
+                        h4.modal-title Hotel List
+                        button.btn-close(type='button', data-bs-dismiss='modal' aria-label='Close') 
+                    .modal-body.row.justify-content-center
+                        .hotel-card
+                            img(src='../images/icons/hotels/bahia.jpg', width='100%')
+                            p.text-center Bahia
+                        .hotel-card
+                            img(src='../images/icons/hotels/breathless-cabo-san-lucas.jpg', width='100%', alt='Breathless Cabo San Lucas')
+                            p.text-center Breathless Cabo San Lucas
+                        .hotel-card
+                            img(src='../images/icons/hotels/cabo-cush.jpg', width='100%', alt='Cabo Cush')
+                            p.text-center Cabo Cush
+                        .hotel-card
+                            img(src='../images/icons/hotels/cabo-viejo.jpg', width='100%', alt='Cabo Viejo')
+                            p.text-center Cabo Viejo
+                        .hotel-card
+                            img(src='../images/icons/hotels/cabo-villas.jpg', width='100%', alt='Cabo Villas')
+                            p.text-center Cabo Villas
+                        .hotel-card
+                            img(src='../images/icons/hotels/casa-dorada.jpg', width='100%', alt='Casa Dorada')
+                            p.text-center Casa Dorada
+                        .hotel-card
+                            img(src='../images/icons/hotels/city-express-plus.jpg', width='100%', alt='City Express Plus')
+                            p.text-center City Express Plus
+                        .hotel-card
+                            img(src='../images/icons/hotels/city-express-suites.jpg', width='100%', alt='City Express Suites')
+                            p.text-center City Express Suites
+                        .hotel-card
+                            img(src='../images/icons/hotels/club-cascadas-de-baja.jpg', width='100%', alt='Club Cascadas de Baja')
+                            p.text-center Club Cascadas de Baja
+                        .hotel-card
+                            img(src='../images/icons/hotels/comfort-inn.jpg', width='100%', alt='Comfort Inn')
+                            p.text-center Comfort Inn
+                        .hotel-card
+                            img(src='../images/icons/hotels/el-ameyal.jpg', width='100%', alt='Comfort Inn')
+                            p.text-center El Ameyal
+                        .hotel-card
+                            img(src='../images/icons/hotels/esperanza-an-auberge.jpg', width='100%', alt='Esperanza An Auberge')
+                            p.text-center Esperanza An Auberge
+                        .hotel-card
+                            img(src='../images/icons/hotels/estancia-real.jpg', width='100%', alt='Estancia Real')
+                            p.text-center Estancia Real
+                        .hotel-card
+                            img(src='../images/icons/hotels/fairfield-inn-marriott.jpg', width='100%', alt='Fairfield Inn Marriott')
+                            p.text-center Faifield Inn Marriott
+                        .hotel-card
+                            img(src='../images/icons/hotels/grand-fiesta-americana.jpg', width='100%', alt='Fiesta Americana Grand')
+                            p.text-center Grand Fiesta Americana
+                        .hotel-card
+                            img(src='../images/icons/hotels/grand-solmar.jpg', width='100%', alt='Grand Solmar')
+                            p.text-center Grand Solmar
+                        .hotel-card
+                            img(src='../images/icons/hotels/hacienda-beach-club.jpg', width='100%', alt='Hacienda Beach Club')
+                            p.text-center Hacienda Beach Club
+                        .hotel-card
+                            img(src='../images/icons/hotels/hacienda-encantada.jpg', width='100%', alt='Hacienda Encantada')
+                            p.text-center Hacienda Encantada
+                        .hotel-card
+                            img(src='../images/icons/hotels/holiday-inn-express.jpg', width='100%', alt='Holiday Inn Express')
+                            p.text-center Holiday Inn Express
+                        .hotel-card
+                            img(src='../images/icons/hotels/los-cabos-golf-resort.jpg', width='100%', alt='Los Cabos Golf Resort')
+                            p.text-center Los Cabos Golf Resort
+                        .hotel-card
+                            img(src='../images/icons/hotels/los-patios.jpg', width='100%', alt='Los Patios')
+                            p.text-center Los Patios
+                        .hotel-card
+                            img(src='../images/icons/hotels/mar-del-cabo.jpg', width='100%', alt='Marina Fiesta')
+                            p.text-center Mar del Cabo
+                        .hotel-card
+                            img(src='../images/icons/hotels/marina-fiesta.jpg', width='100%', alt='Marina Fiesta')
+                            p.text-center Marina Fiesta
+                        .hotel-card
+                            img(src='../images/icons/hotels/marina-sol.jpg', width='100%', alt='Marina Sol')
+                            p.text-center Marina Sol
+                        .hotel-card
+                            img(src='../images/icons/hotels/me-cabo-by-melia.jpg', width='100%', alt='Me Cabo By Melia')
+                            p.text-center Me Cabo by Melia
+                        .hotel-card
+                            img(src='../images/icons/hotels/medano-hotel-and-suites.jpg', width='100%', alt='Medano Hotel and Suites')
+                            p.text-center Medano Hotel and Suites
+                        .hotel-card
+                            img(src='../images/icons/hotels/misiones-del-cabo.jpg', width='100%', alt='Misiones del Cabo')
+                            p.text-center Misiones del Cabo
+                        .hotel-card
+                            img(src='../images/icons/hotels/montage.jpg', width='100%', alt='Misiones del Cabo')
+                            p.text-center Montage
+                        .hotel-card
+                            img(src='../images/icons/hotels/playa-grande.jpg', width='100%', alt='Playa Grande')
+                            p.text-center Playa Grande
+                        .hotel-card
+                            img(src='../images/icons/hotels/pueblo-bonito-los-cabos.jpg', width='100%', alt='Pueblo Bonito Los Cabos')
+                            p.text-center Pueblo Bonito Los Cabos
+                        .hotel-card
+                            img(src='../images/icons/hotels/pueblo-bonito-rose.jpg', width='100%', alt='Pueblo Bonito Rose')
+                            p.text-center Pueblo Bonito Rose
+                        .hotel-card
+                            img(src='../images/icons/hotels/quintas-del-sol.jpg', width='100%', alt='Quintas del Sol')
+                            p.text-center Quintas del Sol
+                        .hotel-card
+                            img(src='../images/icons/hotels/riu-palace.jpg', width='100%', alt='Riu Palace')
+                            p.text-center Riu Palace
+                        .hotel-card
+                            img(src='../images/icons/hotels/riu-santa-fe.jpg', width='100%', alt='Riu Santa Fe')
+                            p.text-center Riu Santa Fe
+                        .hotel-card
+                            img(src='../images/icons/hotels/sandos-finisterra.jpg', width='100%', alt='Sandos Finisterra')
+                            p.text-center Sandos Finisterra
+                        .hotel-card
+                            img(src='../images/icons/hotels/seven-crown.jpg', width='100%', alt='Seven Crown')
+                            p.text-center Seven Crown
+                        .hotel-card
+                            img(src='../images/icons/hotels/sirena-del-mar.jpg', width='100%', alt='Sirena del Mar')
+                            p.text-center Sirena del Mar
+                        .hotel-card
+                            img(src='../images/icons/hotels/sunrock-condo.jpg', width='100%', alt='Sunrock Condo')
+                            p.text-center Sunrock Condo
+                        .hotel-card
+                            img(src='../images/icons/hotels/the-cape-thompson.jpg', width='100%', alt='The Cape Thompson')
+                            p.text-center The Cape Thompson
+                        .hotel-card
+                            img(src='../images/icons/hotels/villa-del-arco.jpg', width='100%', alt='Villa del Arco')
+                            p.text-center Villa del Arco
+                        .hotel-card
+                            img(src='../images/icons/hotels/villa-del-palmar.jpg', width='100%', alt='Villa del Palmar')
+                            p.text-center Villa del Palmar
+                        .hotel-card
+                            img(src='../images/icons/hotels/villa-la-estancia.jpg', width='100%', alt='Villa La Estancia')
+                            p.text-center Villa La Estancia
+                        .hotel-card
+                            img(src='../images/icons/hotels/villa-valencia.jpg', width='100%', alt='Villa La Estancia')
+                            p.text-center Villa Valencia
+                        .hotel-card
+                            img(src='../images/icons/hotels/waldorf-astoria-at-pedregal.jpg', width='100%', alt='Villa La Estancia')
+                            p.text-center Waldorf Astoria at Pedregal
+                        .hotel-card
+                            img(src='../images/icons/hotels/wyndham-tesoro.jpg', width='100%', alt='Wyndham Tesoro')
+                            p.text-center Wyndham Tesoro
+                    .modal-footer
+                        button.btn.zone-3.text-white(type='button', data-bs-dismiss='modal') Close
+                
+        #zone-4.modal.fade(role='dialog' tabindex='-1' aria-labelledby='modalLabelZones' aria-hidden='true')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header
+                        h4.modal-title Hotel List
+                        button.btn-close(type='button', data-bs-dismiss='modal' aria-label='Close') 
+                    .modal-body.row.justify-content-center
+                        .hotel-card
+                            img(src='../images/icons/hotels/copala.jpg', width='100%', alt='Copala')
+                            p.text-center Copala
+                        .hotel-card
+                            img(src='../images/icons/hotels/montecristo-estates.jpg', width='100%', alt='Montecristo Estates')
+                            p.text-center Montecristo Estates
+                        .hotel-card
+                            img(src='../images/icons/hotels/nova-hispania.jpg', width='100%', alt='Nova Hispania')
+                            p.text-center Nova Hispania
+                        .hotel-card
+                            img(src='../images/icons/hotels/pedregal-cabo-san-lucas.jpg', width='100%', alt='Pedregal Cabo San Lucas')
+                            p.text-center Pedregal Cabo San Lucas
+                        .hotel-card
+                            img(src='../images/icons/hotels/pueblo-bonito-pacifica.jpg', width='100%', alt='Pueblo Bonito Pacifica')
+                            p.text-center Pueblo Bonito Pacifica
+                        .hotel-card
+                            img(src='../images/icons/hotels/pueblo-bonito-sunset-beach.jpg', width='100%', alt='Pueblo Bonito Sunset Beach')
+                            p.text-center Pueblo Bonito Sunset Beach
+                        .hotel-card
+                            img(src='../images/icons/hotels/quivira.jpg', width='100%', alt='Quivira')
+                            p.text-center Quivira
+                    .modal-footer
+                        button.btn.zone-4.text-white(type='button', data-bs-dismiss='modal') Close
+                        
+        #zone-5.modal.fade(role='dialog' tabindex='-1' aria-labelledby='modalLabelZones' aria-hidden='true')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header
+                        h4.modal-title Hotel List
+                        button.btn-close(type='button', data-bs-dismiss='modal' aria-label='Close') 
+                    .modal-body.row.justify-content-center
+                        .hotel-card
+                            img(src='../images/icons/hotels/diamante-cabo-san-lucas.jpg', width='100%', alt='Diamante Cabo San Lucas')
+                            p.text-center Diamante Cabo San Lucas
+                        .hotel-card
+                            img(src='../images/icons/hotels/grand-solmar-at-rancho.jpg', width='100%', alt='Grand Solmar at Rancho')
+                            p.text-center Grand Solmar at Rancho    
+                        .hotel-card
+                            img(src='../images/icons/hotels/hard-rock-hotel.jpg', width='100%', alt='Hard Rock Hotel')
+                            p.text-center Hard Rock Hotel     
+                        .hotel-card
+                            img(src='../images/icons/hotels/nobu.jpg', width='100%', alt='Nobu')
+                            p.text-center Nobu    
+                    .modal-footer
+                        button.btn.zone-4.text-white(type='button', data-bs-dismiss='modal') Close                

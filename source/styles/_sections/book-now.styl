@@ -1,0 +1,287 @@
+section#book-now
+  background-color $color4
+  color #fff
+  font-family "Source Sans Pro", Helvetica, sans-serif
+  font-size 16.5pt
+  font-weight 300
+  line-height 1.65
+  margin 0
+  padding 30px 0
+  position: relative;
+
+  #step-2,
+  #step-3,
+  #step-4,
+  #capacity-hiace,
+  #capacity-sprinter,
+  #capacity-shuttle,
+  #pickup,
+  #arrival,
+  #departure,
+  #grocery-stop-cash,
+  #grocery-stop-paypal
+    display none
+
+  .area
+    align-items center
+    display flex
+    margin-bottom 30px
+
+    .selector,
+    .title
+      width 50%
+
+    .title
+      h3
+        font-size 20px
+        margin 0
+
+    .selector
+      .step
+        background-color $color1
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%)
+        color #fff
+        display inline-block
+        font-size 14px
+        padding 0 20px
+        position relative
+        text-transform uppercase
+        width fit-content
+        z-index 4
+
+      .step.selected
+        background-color $color2
+
+      .step.previous
+        background-color $color3
+
+      .step:nth-child(2)
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%)
+        margin-left -15px
+        z-index 3
+
+      .step:nth-child(3)
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%)
+        margin-left -15px
+        z-index 2
+
+      .step:nth-child(4)
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%)
+        margin-left -15px
+        z-index 1
+
+  .info
+    background-color $color1
+    border-radius 5px
+    display flex
+    overflow hidden
+    width 100%
+
+    .text
+      padding 1em
+
+      h4
+        border-bottom solid 2px $color1
+        color #fff
+        font-family Raleway, Helvetica, sans-serif
+        font-size 0.9em
+        font-weight 700
+        letter-spacing 0.1em
+        margin 0 0 1em 0
+        padding-bottom 1em
+        text-transform uppercase
+
+    .info-row
+      align-items center
+      display flex
+      height 30px
+
+      h6
+        margin 0
+
+      p
+        margin 0
+        padding-left 10px
+
+  .info.info-container
+    flex-direction column
+    padding 30px 15px
+
+  input,
+  select
+    background-color $color1
+    border 1px solid #999
+    border-radius 0.5rem
+    color #fff
+    font-size 18px
+    height 30px
+    line-height 30px
+    margin-bottom 20px
+    outline none
+    padding 0 10px
+    width 100%
+    -webkit-appearance none
+    -moz-appearance none
+
+  input.submit-button
+    background-color $color3
+    border 0
+    color #fff
+    width 100%
+
+  input.submit-button[disabled="disabled"]
+    opacity 0.5
+
+  input::placeholder
+    color #fff
+    height 30px
+    line-height 30px
+    opacity 1
+
+  input:-ms-input-placeholder
+    color #fff
+
+  input::-ms-input-placeholder
+    color #fff
+
+  input::-webkit-calendar-picker-indicator
+    filter invert(1)
+
+  input#form-hotel
+    margin-bottom 0
+    
+  label
+    background-color #8fa9b0
+    font-size 12px
+    font-weight 400
+    margin-left 10px
+    padding 0 10px
+    position absolute
+    top -10px
+
+  select
+    -webkit-appearance menulist
+    -moz-appearance menulist
+
+  .easy-autocomplete-container
+    ul
+      background-color $color1
+
+      li.selected
+        background-color $color2
+  .easy-autocomplete.eac-round
+    margin-bottom 20px
+    width auto !important
+
+  .footer-action
+    border-top solid 2px $color1
+    font-size 0.9em
+    color #fff
+    font-family Raleway, Helvetica, sans-serif
+    font-weight 700
+    letter-spacing 0.1em
+    margin 1em 0 0 0
+    padding-top 1em
+    text-transform uppercase
+
+  .unit-image
+    text-align center
+
+    img
+      max-width 150px
+
+  .unit-txt
+    padding 15px 0
+
+    p
+      line-height 20px
+      margin 0
+
+  .selected-unit
+    background-color $color2
+
+    .unit-txt
+      color #fff
+
+  #step-4
+    input
+      border 0
+      width auto
+
+    #paypal-button-container
+      display flex
+      justify-content center
+
+    p
+      font-size 16px
+      margin 0
+
+    #Thanks
+      background-color #fef000
+      height auto
+      padding 30px 0
+      text-align center
+
+      p
+        color #000
+        font-size 20px
+        margin 0
+
+      img
+        border 0
+        width auto
+
+  .main-book-container
+    background-color #fff
+    border-radius 5px
+    height auto
+    margin-top 90px
+    padding 30px
+
+    #price
+      font-size 28px
+      margin-bottom 0
+
+    #step-1-vehicle
+      #reserve-vehicle-suburban,
+      #reserve-vehicle-hiace
+        margin 0 auto
+        max-width 400px
+
+        img
+          max-width 300px
+
+@media(max-width: 991px)
+  section#book-now
+    .info
+      .info-row
+        display block
+        height auto
+        h6
+          font-size 14px
+        p
+          font-size 18px
+          line-height 18px
+          padding-left 0
+
+@media(max-width: 767px)
+  section#book-now
+    .info.special
+      margin-top 30px
+
+.margin-bottom-1r
+  margin-bottom 1rem
+
+.margin-bottom-2r
+  margin-bottom 2rem
+
+.padding-bottom-2r
+  padding-bottom 2rem
+
+.row-group
+  float left
+
+.zindex9
+  z-index 9
+.col-12
+  position relative

@@ -1,0 +1,31 @@
+// ===  Intro Starts === //
+
+section.section.section-search.d-grid.align-content-center#intro
+    .section-container.d-flex.justify-content-center
+        .row.container.w-75.section__wrapper.p-5.text-center.justify-content-center
+            .section-headline.col-12.col-sm-6.d-grid.align-content-center
+                h1.p-2.fs-1 MELA Transfer
+                span.fs-3 Private Services
+
+            .search.col-12.col-sm-6.text-light
+                form
+                    fieldset.disabled
+                        legend Find transport to your Hotel
+                        .mb-3
+                            label.form-label(for="formHotelInput") Hotel
+                            input.form-control(type="text" id="formHotelInput" placeholder="Select your hotel")
+                        .mb-3
+                            label.form-label(for="formServiceSelect") Service
+                            select.form-select(id="formServiceSelect")
+                                option One Way
+                                option Round Trip
+
+                        .mb-3
+                            label.form-label(for="formDepartureSelect") Departure
+                            select.form-select(id="formDepartureSelect")
+                                option From Airport to Hotel
+                                option From Hotel to Airport
+
+                        button.btn.btn-primary(type="Send") Send
+
+// ===  Intro Ends === //

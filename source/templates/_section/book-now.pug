@@ -1,0 +1,31 @@
+section#book-now
+  .container
+    .row.text-center
+      .col-sm-12
+        h2 BOOK NOW
+    .row
+      .col-sm-12.col-md-8   
+        include ../_reservation/step-1
+        include ../_reservation/step-2
+        include ../_reservation/step-3
+        include ../_reservation/step-4
+      .col-sm-12.col-md-4
+        .info.special
+          .text
+            h4 Booking Information
+            .info-row
+              h6 Vehicle
+              p#vehicleselected Chevrolet Suburban
+            .info-row
+              h6 Hotel
+              p#hotelselected
+            .info-row
+              h6 Service
+              p#serviceselected
+            #getPromo.info-row.d-none
+              h6 Promo
+              p#promoselected    
+            br
+            .info-row
+              h6 Total
+              p#price

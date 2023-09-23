@@ -1,0 +1,97 @@
+section#admin
+  .container
+    #step1-custom.row    
+      .col-sm-12
+        form#custom-reservation
+          .row
+            .col-xs-12
+              label Hotel
+              input#form-hotel-custom(name='Hotel', placeholder="Select your hotel")
+          .row
+            .col-xs-12
+              label Passangers
+              select#form-unit-custom(name='Unit')
+                option(value='false') How many passengers
+          .row
+            .col-xs-12
+              label Service
+              select#form-service-custom(name='Service')
+                option(date='One Way', value='One Way')
+                  | One Way
+                option(data='Round Trip', value='Round Trip')
+                  | Round Trip
+                            
+          .row
+            .col-xs-12#only-oneway
+              label Departure
+              select#form-destination-custom(name="Destination")
+                option(data="Airport - Hotel", value="Airport - Hotel")
+                  | From Airport to Hotel
+                option(data="Hotel - Airport", value="Hotel - Airport")
+                  | From Hotel to Airport
+          .row
+            .col-xs-6
+              label Full Name
+              input#form-name-custom(type='text', name='name', placeholder='Full Name')
+            .col-xs-6
+              label Email
+              input#form-email-custom(type='text', name='email', placeholder='Email')
+          .row
+            .col-xs-6
+              label Phone
+              input#form-phone-custom(type='number', name='phone', placeholder='Phone')
+          .row-group#arrival
+            .row
+              .col-xs-12.text-center
+                h3
+                  | Arrival Information
+            .row
+              .col-xs-6
+                label Date
+                input#form-arrival-date-custom(type='date', name='arrivaldate')
+              .col-xs-6
+                label Time
+                input#form-arrival-time-custom(type='time', name='arrivaltime')
+            .row
+              .col-xs-6
+                label Airline
+                select#form-arrival-airline-custom
+              .col-xs-6
+                label Flight #
+                input#form-arrival-flight-custom(type='text', name='arrivalflight', placeholder="Flight")
+          .row-group#departure
+            .row
+              .col-xs-12.text-center
+                h3#departure-info
+                  | Departure Information
+            .row
+              .col-xs-6
+                label Date
+                input#form-departure-date-custom(type='date', name='departuredate')
+              .col-xs-6
+                label Time
+                input#form-departure-time-custom(type='time', name='departuretime')
+            .row
+              .col-xs-6
+                label Airline
+                select#form-departure-airline-custom
+
+              .col-xs-6
+                label Flight #
+                input#form-departure-flight-custom(type='text', name='departureflight', placeholder="Flight")
+
+          .row
+            .col-xs-12
+              label Price
+              input#price
+
+          .row
+            .col-xs-12
+              label Comments
+              textarea#form-comment-custom(name='comments', placeholder='Comments')
+          .row
+            .col-xs-12
+              input#send-mail-custom.submit-button(type="button", name='SEND', value='SEND')
+    #step2-custom.row
+      .col-xs-12
+        h2.text-center Reservation is made!
