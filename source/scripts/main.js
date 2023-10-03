@@ -9,6 +9,14 @@ var airlines = null;
 
 $( document ).ready(function() {
 
+  const jsConfetti = new JSConfetti()
+
+  jsConfetti.addConfetti({
+    confettiRadius: 6,
+    confettiNumber: 500,
+  });
+
+
   $.getJSON( "../json/transfers.json", function( data ) {
     for (units in data.units){
       $("#form-unit").append("<option value='" + data.units[units].name + "'>" + data.units[units].name + "</option>");
@@ -27,6 +35,23 @@ $( document ).ready(function() {
     $("#capacity-suburban").css("display", "block");
     $("#capacity-hiace").css("display", "none");
     $("#capacity-sprinter").css("display", "none");
+    $("#zone-unit").html("Chevrolet Suburban");
+    $("#zone-1-roudntrip").html("$140 USD");
+    $("#zone-1-oneway").html("$70 USD");
+    $("#zone-2-roudntrip").html("$160 USD");
+    $("#zone-2-oneway").html("$80 USD");
+    $("#zone-3-roudntrip").html("$170 USD");
+    $("#zone-3-oneway").html("$85 USD");
+    $("#zone-4-roudntrip").html("$180 USD");
+    $("#zone-4-oneway").html("$90 USD");
+    $("#zone-5-roudntrip").html("$190 USD");
+    $("#zone-5-oneway").html("$95 USD");
+    $("#zone-6-roudntrip").html("$400 USD");
+    $("#zone-6-oneway").html("$200 USD");
+    $("#zone-7-roudntrip").html("$500 USD");
+    $("#zone-7-oneway").html("$250 USD");
+    $("#zone-8-roudntrip").html("$400 USD");
+    $("#zone-8-oneway").html("$200 USD");
   });
 
   $("#reserve-hiace").click(function() {
@@ -38,6 +63,23 @@ $( document ).ready(function() {
     $("#capacity-suburban").css("display", "none");
     $("#capacity-hiace").css("display", "block");
     $("#capacity-sprinter").css("display", "none");
+    $("#zone-unit").html("Toyota Hiace");
+    $("#zone-1-roudntrip").html("$160 USD");
+    $("#zone-1-oneway").html("$80 USD");
+    $("#zone-2-roudntrip").html("$170 USD");
+    $("#zone-2-oneway").html("$85 USD");
+    $("#zone-3-roudntrip").html("$200 USD");
+    $("#zone-3-oneway").html("$100 USD");
+    $("#zone-4-roudntrip").html("$220 USD");
+    $("#zone-4-oneway").html("$110 USD");
+    $("#zone-5-roudntrip").html("$230 USD");
+    $("#zone-5-oneway").html("$115 USD");
+    $("#zone-6-roudntrip").html("$420 USD");
+    $("#zone-6-oneway").html("$210 USD");
+    $("#zone-7-roudntrip").html("$520 USD");
+    $("#zone-7-oneway").html("$260 USD");
+    $("#zone-8-roudntrip").html("$420 USD");
+    $("#zone-8-oneway").html("$210 USD");
   });
 
   $("#reserve-sprinter").click(function() {
@@ -49,6 +91,23 @@ $( document ).ready(function() {
     $("#capacity-suburban").css("display", "none");
     $("#capacity-hiace").css("display", "none");
     $("#capacity-sprinter").css("display", "block");
+    $("#zone-unit").html("Mercedes-Benz Sprinter");
+    $("#zone-1-roudntrip").html("$190 USD");
+    $("#zone-1-oneway").html("$90 USD");
+    $("#zone-2-roudntrip").html("$200 USD");
+    $("#zone-2-oneway").html("$100 USD");
+    $("#zone-3-roudntrip").html("$220 USD");
+    $("#zone-3-oneway").html("$110 USD");
+    $("#zone-4-roudntrip").html("$240 USD");
+    $("#zone-4-oneway").html("$120 USD");
+    $("#zone-5-roudntrip").html("$260 USD");
+    $("#zone-5-oneway").html("$130 USD");
+    $("#zone-6-roudntrip").html("$500 USD");
+    $("#zone-6-oneway").html("$250 USD");
+    $("#zone-7-roudntrip").html("$620 USD");
+    $("#zone-7-oneway").html("$310 USD");
+    $("#zone-8-roudntrip").html("$500 USD");
+    $("#zone-8-oneway").html("$250 USD");
   });
 
   $("#send-step-1").click(function() {

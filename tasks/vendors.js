@@ -10,7 +10,8 @@ gulp.task('vendors', function() {
         "node_modules/jquery/dist/jquery.js",
         "node_modules/bootstrap/dist/js/bootstrap.js",
         "node_modules/aos/dist/aos.js",
-        "node_modules/easy-autocomplete/dist/jquery.easy-autocomplete.js"
+        "node_modules/easy-autocomplete/dist/jquery.easy-autocomplete.js",
+        "node_modules/js-confetti/dist/js-confetti.browser.js"
     ])
     .pipe(concat("vendors.js"))
     .pipe(gulp.dest("./website/scripts/"));
