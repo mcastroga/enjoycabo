@@ -45,7 +45,7 @@ $( document ).ready(function() {
     unit = 'Mercedes-Benz Sprinter';
     $("#reserve-suburban").removeClass("selected-unit");
     $("#reserve-hiace").removeClass("selected-unit");
-    $("#reserve-printer").addClass("selected-unit");
+    $("#reserve-sprinter").addClass("selected-unit");
     $("#capacity-suburban").css("display", "none");
     $("#capacity-hiace").css("display", "none");
     $("#capacity-sprinter").css("display", "block");

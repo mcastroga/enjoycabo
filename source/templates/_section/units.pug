@@ -1,39 +1,21 @@
 section#units
-    #carouselHeroCaptions.carousel.slide(data-bs-ride='carousel')
-        .carousel-indicators
-            button.active(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-            button(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide-to='1' aria-label='Slide 2')
-            button(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide-to='2' aria-label='Slide 3')
-            button(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide-to='3' aria-label='Slide 1')
-
-        .carousel-inner
-            .carousel-item.active
-                img.d-block.w-100(src="../images/units/suburban-1.jpg" alt="suburban-1")
-                .carousel-caption.d-none.d-md-block
-                    h3.card-title.fs-1 Chevrolet 
-                        p.fs-3 Suburban
-                    p.card-text.fs-3 Luxury SUV with 5 passangers capacity
-            .carousel-item
-                img.d-block.w-100(src="../images/units/expedition-1.jpg" alt="expedition-1")
-                .carousel-caption.d-none.d-md-block
-                    h3.card-title.fs-1 Ford 
-                        p.fs-3 Expedition
-                    p.card-text.fs-3 Luxury SUV with 5 passangers capacity
-            .carousel-item
-                img.d-block.w-100(src="../images/units/van-1.jpg" alt="van-1")
-                .carousel-caption.d-none.d-md-block
-                    h3.card-title.fs-1 Toyota 
-                        p.fs-3 Hiace
-                    p.card-text.fs-3 Luxury VAN with 10 passangers capacity
-            .carousel-item
-                img.d-block.w-100(src="../images/units/crafter-1.jpg" alt="crafter-1")
-                .carousel-caption.d-none.d-md-block
-                    h3.card-title.fs-1 Volkswagen 
-                        p.fs-3 Crafter
-                    p.card-text.fs-3 Luxury large VAN with 16 passangers capacity
-        button.carousel-control-prev(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide='prev')
-            span.carousel-control-prev-icon(aria-hidden='true')
-            span.visually-hidden Previous
-        button.carousel-control-next(type='button' data-bs-target='#carouselHeroCaptions' data-bs-slide='next')
-            span.carousel-control-next-icon(aria-hidden='true')
-            span.visually-hidden Next
+    .container
+        .row
+            .col-sm-12.text-center
+                h2.promo-title
+                    | Do you need more space?
+                p
+                    | Largers groups for 10 passengers with a Toyota Hiace and 16 passengers in Mercedes-Benz Sprinter
+        .row.promo-subtitle
+            .col-sm-3.animated.fadeInLeft.text-center
+                img(src='/images/units/navigator.png', width='100%')
+                h2.text-center Lincoln Navigator
+            .col-sm-3.animated.fadeInLeft.text-center
+                img(src='/images/units/suburban.png', width='100%')
+                h2.text-center Chevrolet Suburban  
+            .col-sm-3.animated.fadeInLeft.text-center
+                img(src='/images/units/hiace.png', width='100%')
+                h2.text-center Toyota Hiace          
+            .col-sm-3.animated.fadeInRight.text-center
+                img(src='images/units/sprinter.png', width='100%')
+                h2.text-center Mercedes-Benz Sprinter
