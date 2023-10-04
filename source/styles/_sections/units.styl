@@ -21,3 +21,41 @@ section#package
     margin 30px 0
   p
     font-size 24px
+
+section#about-us
+  background-color #000
+  color #fff
+  padding 30px 0
+
+  h3
+    font-size 40px
+
+  p
+    font-size 22px
+
+  .carousel-fade
+    .carousel-item
+      opacity: 0;
+      transition: opacity ease-out .7s;
+      height: auto
+
+    .carousel-item.active,
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-prev.carousel-item-right
+      opacity: 1
+
+    .active.carousel-item-left,
+    .active.carousel-item-right
+      opacity: 0;
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active,
+    .active.carousel-item-left,
+    .active.carousel-item-prev
+      transform: translateX(0);
+      transform: translate3d(0, 0, 0);
+
+section#above-footer
+  background-color #000
+  padding 40px 0
